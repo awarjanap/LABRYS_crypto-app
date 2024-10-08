@@ -42,7 +42,7 @@ const CoinComponent = ({ id, symbol, value, price, change }: {id:number , symbol
 
             <Td bg='#2F2E2E' padding="16px 60px 16px 0px" color='white' fontFamily='Inter' fontSize='12px' textAlign='right' sx={MidCellStyle}>  $ {(parseFloat(price).toFixed(2))}</Td>
 
-            <Td bg='#2F2E2E' fontFamily='Inter' sx={rightCellStyle} padding="16px 50px 16px 0px" textAlign='center' >
+            <Td bg='#2F2E2E' fontFamily='Inter' fontSize="10px" sx={rightCellStyle} padding="16px 50px 16px 0px" textAlign='center' >
                 <StatGroup>
                     <Stat>
                         <>

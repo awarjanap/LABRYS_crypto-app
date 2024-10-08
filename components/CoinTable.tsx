@@ -31,7 +31,7 @@ const CoinTable = ({
     borderColor: "transparent",
     borderCollapse: "separate",
     borderSpacing: "0 0.5em",
-    width: "90%",
+    width: "80%",
   };
   console.log("coins", coins);
 
@@ -114,7 +114,7 @@ const CoinTable = ({
               borderBottomColor="transparent"
               fontSize="13px"
               color="white"
-              textAlign="center"
+              textAlign="right"
               padding="20px 10px 20px 10px"
             >
               Price{" "}
